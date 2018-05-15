@@ -1,0 +1,10 @@
+server:
+  port: 8080
+  tomcat:
+  error:
+    path: /error
+spring:
+  devtools:
+    restart:
+      enabled: true #热部署生效
+      additional-paths: src/..  #设置需要重启的目录
